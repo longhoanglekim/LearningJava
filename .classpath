@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ArrayPractice/src"/>
+	<classpathentry kind="src" path="Circle1/src"/>
+	<classpathentry kind="src" path="HelloWorld/src"/>
+	<classpathentry kind="src" path="InheritancePractice/src"/>
+	<classpathentry kind="src" path="interfacePractice/src"/>
+	<classpathentry kind="src" path="methodPractice/src"/>
+	<classpathentry kind="src" path="PracticeArgument/src"/>
+	<classpathentry kind="src" path="RecursionPractice/src"/>
+	<classpathentry kind="src" path="StringPratice/src"/>
+	<classpathentry kind="src" path="ThisSuperPractice/src"/>
+	<classpathentry kind="output" path="AbstractClassPractice/bin"/>
+</classpath>
