@@ -1,0 +1,52 @@
+package interfacePractice;
+class Phone
+{
+	void call()
+	{
+		System.out.println("Calling...");
+	}
+	void sms()
+	{
+		System.out.println("Texting...");
+	}
+}
+interface ICamera
+{
+	void click();
+	void record();
+}
+interface IMusicPlayer
+{
+	void play();
+	void pause();
+}
+class SmartPhone extends Phone implements ICamera,IMusicPlayer
+{
+	public void click()
+	{
+		System.out.println("Click click...");
+	}
+	public void record()
+	{
+		System.out.println("Recording...");
+	}
+	public void play()
+	{
+		System.out.println("Playing the music..");
+	}
+	public void pause()
+	{
+		System.out.println("Pause!");
+	}
+}
+public class interfacePractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Phone s = new SmartPhone();
+		s.call();
+		s.sms();
+	
+	}
+
+}
