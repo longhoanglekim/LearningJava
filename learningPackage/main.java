@@ -1,0 +1,1 @@
+class main{	public static void main(String arg[])	{		String str = new java.lang.String("Hello");		// str = new String("Hello");		System.out.println(str);	}}

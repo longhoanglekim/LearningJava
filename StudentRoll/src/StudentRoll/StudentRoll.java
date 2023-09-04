@@ -30,7 +30,7 @@ public class StudentRoll {
 		st[1] = new Student();
 		st[1].printNo();
 		st[2] = new Student();
-		st[2].printNo();
+		st[2	].printNo();
 	}
 
 }
